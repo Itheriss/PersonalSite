@@ -1,6 +1,7 @@
 html, body{
 	font-family:sans-serif;
 	margin:0px;
+	color:#FFFFFF;
 }
 .logo{
 	float:left;
@@ -11,13 +12,18 @@ html, body{
 	padding:0px 10px;
 }
 .active{
-	background-color:#555;
+	background-color:#4DA8DA;
+}
+h1{
+	font-family:monospace;
+	text-align:center;
+	font-size:400%;
 }
 nav ul{
 	list-style-type:none;
 	padding:0px;
 	margin:0px;
-	postiion:relative;
+	position:relative;
 }
 nav li{
 	display:block;
@@ -41,13 +47,17 @@ a{
 	text-decoration:none;
 }
 a:hover{
-	background-color:#555;
+	background-color:#4DA8DA;
 }
 header{
 	height: 50px;
-	background-color:#333;
+	background-color: #274C63;
 	width:100%;
+	border-color:#FFFFFF;
 }
 main{
 	padding:25px;
+}
+body{
+	background-color:#12232E;
 }
